@@ -1,0 +1,9 @@
+@import "../../styles/_variables";
+
+.main-layout {
+  width: 90%;
+  margin: $spacing-32 auto;
+  @media screen and (min-width: 578px) {
+    width: 80%;
+  }
+}

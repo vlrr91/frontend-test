@@ -1,0 +1,30 @@
+@import '../../styles/variables';
+
+.input-search__form {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.input-search__input {
+  height: $dimension-40;
+  width: 100%;
+  border: none;
+  border-radius: $border-radius 0 0 $border-radius;
+  color: $secondary-text-color;
+  font-size: $font-size-18;
+  padding: 0 $spacing-16;
+}
+
+.input-search-button {
+  height: $dimension-40;
+  width: $dimension-40;
+  border: none;
+  background-color: $body-color;
+  border-radius: 0 $border-radius $border-radius 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: darken($body-color, 5%);
+  }
+}
